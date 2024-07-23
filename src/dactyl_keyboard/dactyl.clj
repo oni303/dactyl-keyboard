@@ -18,7 +18,7 @@
 
 ; number of columns.
 ; 5 means your left hand will get a through g.
-(def ncols 5)
+(def ncols 6)
 
 ; curvature of the columns
 (def α (/ π 12))
@@ -29,9 +29,9 @@
 ; controls left-right tilt / tenting (higher number is more tenting)
 (def centercol 4)
 ; or, change this for more precise tenting control
-(def tenting-angle (/ π 9))  
+(def tenting-angle (/ π 20))
 ; options include :standard, :orthographic, and :fixed
-(def column-style :standard) 
+(def column-style :standard)
 
 ; if you don't want the side nubs, set this
 ; parameter as false.
@@ -51,7 +51,7 @@
 
 ; if you want to use small usb hole, set
 ; this parameter as true
-(def use-promicro-usb-hole? false)
+(def use-promicro-usb-hole? true)
 
 ; wide pinky, 1.5u.
 (def use-wide-pinky? false)
@@ -109,7 +109,7 @@
 ; wall thickness parameter; originally 5
 (def wall-thickness 2)
 
-;; Settings for column-style == :fixed 
+;; Settings for column-style == :fixed
 ;; The defaults roughly match Maltron settings
 ;;   http://patentimages.storage.googleapis.com/EP0219944A2/imgf0002.png
 ;; Fixed-z overrides the z portion of the column ofsets above.
